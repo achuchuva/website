@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+  <script src="https://kit.fontawesome.com/58dadfbf19.js" crossorigin="anonymous"></script>
+  <title>Anton Chuchuva | Portfolio</title>
+</head>
+
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <div class="nav-left" role="navigation" aria-label="Pages">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+
+    <div class="nav-center">
+      <div class="brand">Anton Chuchuva</div>
+    </div>
+
+    <div class="nav-right" aria-label="External links">
+      <a class="icon-link" href="https://www.youtube.com/@achuchuva" target="_blank" rel="noreferrer" aria-label="YouTube">
+        <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+      </a>
+      <a class="icon-link" href="https://antchu.itch.io/" target="_blank" rel="noreferrer" aria-label="itch.io">
+        <i class="fa-brands fa-itch-io" aria-hidden="true"></i>
+      </a>
+      <a class="icon-link" href="https://store.steampowered.com/search/?developer=Anton%20Chuchuva" target="_blank" rel="noreferrer" aria-label="Steam">
+        <i class="fa-brands fa-steam" aria-hidden="true"></i>
+      </a>
+    </div>
+  </nav>
+
+  <main id="content">
+    <header class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <p class="pill">Game Designer • Software Developer</p>
+        <h1 id="hero-title">I make (mostly) games.</h1>
+      </div>
+    </header>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="projects-title">Projects</h2>
+          <p class="muted">
+            Featured work I want to highlight here. Smaller game projects and jams live on <a href="https://antchu.itch.io/" target="_blank" rel="noreferrer">itch.io</a>.
+          </p>
+        </div>
+
+        <div class="project" aria-label="Solo Flight">
+          <div class="project-body">
+            <h3>Solo Flight</h3>
+            <p class="muted">
+              A small flight simulation game with 3 different airplanes and 24 unique missions to complete around an island. This was my first
+              Steam release that I developed from 2021 - 2025 and I am very happy with it being my first major milestone as an indie developer! 
+            </p>
+            <p class="project-links" aria-label="Solo Flight links">
+              <a href="https://store.steampowered.com/app/2659730/Solo_Flight/" target="_blank" rel="noreferrer">Steam</a>
+              <span class="muted">•</span>
+              <a href="https://antchu.itch.io/solo-flight-alpha-version" target="_blank" rel="noreferrer">Itch.io</a>
+            </p>
+          </div>
+          <aside class="project-side" aria-label="Solo Flight media">
+            <iframe
+              class="project-media-iframe"
+              src="https://www.youtube-nocookie.com/embed/Mdxzi7xnaFw"
+              title="Solo Flight - Official Trailer"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </aside>
+        </div>
+
+        <div class="project" aria-label="Squid Simulator">
+          <div class="project-body">
+            <h3>Squid Simulator</h3>
+            <p class="muted">
+              My first mobile game release that I completed in 2021! You must survive being a squid in hostile waters
+              filled with fish you can eat, fish that eat you and humans with harpoons. The game has amassed over 10000 downloads!
+            </p>
+            <p class="project-links" aria-label="Squid Simulator links">
+              <a href="https://apps.apple.com/au/app/squid-simulator/id1577056934" target="_blank" rel="noreferrer">App Store</a>
+              <span class="muted">•</span>
+              <span class="muted">Google Play (coming soon)</span>
+            </p>
+          </div>
+          <aside class="project-side" aria-label="Squid Simulator media">
+            <img class="project-media" src="images/squid-simulator.png" alt="Squid Simulator screenshot">
+          </aside>
+        </div>
+
+        <div class="project" aria-label="Safe Vision for Fire TV">
+          <div class="project-body">
+            <h3>Safe Vision for Fire TV</h3>
+            <p class="muted">
+              Simple application to monitor and filter videos for your kids on YouTube, released for Amazon Fire TV with
+              numerous 5-star reviews. Built as an extension for the base application Safe Vision.
+            </p>
+            <p class="project-links" aria-label="Safe Vision for Fire TV links">
+              <a href="https://safe.vision" target="_blank" rel="noreferrer">safe.vision</a>
+              <span class="muted">•</span>
+              <a href="https://www.amazon.com/Safe-Vision-for-Fire-TV/dp/B0FXJD9HTD" target="_blank" rel="noreferrer">Amazon Fire TV</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Anton Chuchuva</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

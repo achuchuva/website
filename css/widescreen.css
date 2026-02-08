@@ -1,16 +1,10 @@
-/* Align icon left */
-#what .items .item {
-  display: flex;
-  text-align: left;
-}
+@media (min-width: 1100px) {
+  .hero,
+  .page-hero {
+    padding: 3.5rem 0 2.25rem;
+  }
 
-/* Position icon */
-#what .items .item i {
-  margin-right: 1.3rem;
-  align-self: center;
-  margin-bottom: 0;
-}
-
-#contact .map {
-  flex: 2;
+  .hero-lead {
+    font-size: 1.05rem;
+  }
 }

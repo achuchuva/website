@@ -9,143 +9,74 @@
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
   <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
   <script src="https://kit.fontawesome.com/58dadfbf19.js" crossorigin="anonymous"></script>
-  <title>Anton Chuchuva | Game Developer</title>
+  <title>Anton Chuchuva | About</title>
 </head>
 
-<body id="home">
-  <!-- Navbar -->
-  <nav id="navbar">
-    <h1 class="logo">
-      <span class="text-primary"><i class="fa-solid fa-gamepad"></i> Anton </span>Chuchuva
-    </h1>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#game">My Games</a></li>
-      <li><a href="#what">Who</a></li>
-      <li><a href="#main-footer">Contact</a></li>
-    </ul>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <div class="nav-left" role="navigation" aria-label="Pages">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+
+    <div class="nav-center">
+      <div class="brand">Anton Chuchuva</div>
+    </div>
+
+    <div class="nav-right" aria-label="External links">
+      <a class="icon-link" href="https://www.youtube.com/@achuchuva" target="_blank" rel="noreferrer" aria-label="YouTube">
+        <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+      </a>
+      <a class="icon-link" href="https://antchu.itch.io/" target="_blank" rel="noreferrer" aria-label="itch.io">
+        <i class="fa-brands fa-itch-io" aria-hidden="true"></i>
+      </a>
+      <a class="icon-link" href="https://store.steampowered.com/search/?developer=Anton%20Chuchuva" target="_blank" rel="noreferrer" aria-label="Steam">
+        <i class="fa-brands fa-steam" aria-hidden="true"></i>
+      </a>
+    </div>
   </nav>
-  <!-- Header: Showcase -->
-  <header id="showcase">
-    <div id="fader"></div>
-    <div class="showcase-content">
-      <h1 class="l-heading">
-        Junior Software and Game Developer
-      </h1>
-      <p class="lead">
-        Software developer with a side hobby of indie game development! Check out my journey below!
-      </p>
-      <a href="#what" class="btn">
-        Read More
-      </a>
-    </div>
-  </header>
 
-  <!-- Section: My Games -->
-  <section id="game">
-    <div class="squid"></div>
-    <div class="who-text bg-dark p-2">
-      <h2 class="m-heading">
-        <span class="text-primary">Squid</span> Simulator
-      </h2>
-      <p>
-        My first mobile game release that I completed in 2021! You must survive being a squid
-        in hostile waters filled with fish you can eat, fish that eat you and humans...
-        <br>
-        The game is completely free with no ads!
-      </p>
-      <a href="https://apps.apple.com/au/app/squid-simulator/id1577056934" target="_blank" class="btn">
-        Check it out!
-      </a>
-    </div>
-  </section>
-  <section id="game">
-    <div class="who-text bg-dark p-2">
-      <h2 class="m-heading">
-        <span class="text-primary">Solo</span> Flight
-      </h2>
-      <p>
-        This is an ambitious project I've begun undertaking in 2022 to complete a fully commercial
-        flying game for Steam. Currently, it is still in development and I would be grateful for any
-        feedback or playtesting!
-        <br>
-        All playtesters will receive a free copy of the game on its release. Make sure to check it out!
-      </p>
-      <a href="https://antchu.itch.io/solo-flight-alpha-version" target="_blank" class="btn">
-        Solo Flight Alpha Version
-      </a>
-    </div>
-    <div class="plane"></div>
-  </section>
-
-  <!-- Section: Smaller Games -->
-  <section id="clients" class="py-1">
-    <div class="container">
-      <h2 class="m-heading text-center">
-        <span class="text-primary">Smaller</span> Games
-      </h2>
-      <div class="items">
-        <div>
-          <h3>Operation Father's Day</h3>
-          <a href="https://antchu.itch.io/operation-fathers-day" target="_blank"><img src="./images/present.PNG"
-              alt="Client" id="logo"></a>
+<main id="content">
+    <header class="about-hero" aria-label="About hero">
+      <div class="about-hero-inner">
+        <div class="about-hero-text container">
+          <h1>Anton Chuchuva</h1>
+          <p class="hero-lead">Game Designer and Software Developer</p>
         </div>
-        <div>
-          <h3>What Lurks in the Abyss</h3>
-          <a href="https://antchu.itch.io/what-lurks-in-the-abyss" target="_blank"><img src="./images/noe.PNG"
-              alt="Client" id="logo"></a>
-        </div>
-        <div>
-          <h3>Fantastic Fox</h3>
-          <a href="http://a.chuchuva.com/fantastic-fox/" target="_blank"><img src="./images/fox.PNG" alt="Client"
-              id="logo"></a>
-        </div>
-        <div>
-          <h3>Rolling Ball</h3>
-          <a href="https://antchu.itch.io/rollingball" target="_blank"><img src="./images/ball.PNG" alt="Client"
-              id="logo"></a>
+        <div class="about-hero-media" aria-hidden="true">
+          <img src="images/anton.png" alt="">
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Section: Who I Am -->
-  <section id="what" class="bg-light py-1">
-    <div class="container">
-      <h2 class="m-heading text-center">
-        <span class="text-primary">A Bit</span> About Me
-      </h2>
-      <div class="item">
-        <div>
-          <img src="./images/me.jpg" alt="Anton">
-        </div>
-        <div>
-          <h3>Junior Game Designer</h3>
-          <p>
-            I am a passionate game developer and designer that is hoping to find some real
-            world experience in the next few years by working with a dedicated game development
-            team. But for now, I am studying, making indie games and trying my best to meet new
-            people that share my interests! Be sure to reach out for a chat!
-          </p>
-        </div>
+    <section class="section">
+      <div class="container">
+
+        <h2>Details</h2>
+        <ul class="about-list" aria-label="Details">
+          <li><strong>Born</strong> — 2005</li>
+          <li><strong>Based in</strong> — Melbourne, Australia</li>
+          <li><strong>Languages</strong> — English, Russian</li>
+          <li><strong>Programming</strong> — C#, JavaScript, PHP, SQL, Python</li>
+          <li><strong>Software</strong> — Unity, Photoshop, Premiere</li>
+          <li><strong>Hobbies</strong> — Playing Video Games and Board Games, Drawing, Tennis, Hiking, Travelling</li>
+          <br>
+          <li><strong>2024 - present</strong> — Software developer at <strong><a href="https://traffio.com.au" target="_blank" rel="noreferrer">Traffio</a></strong>.</li>
+          <li><strong>2023 - 2026</strong> — Swinburne University of Technology, Bachelor of Games and Interactivity/Bachelor of Computer Science.</li>
+        </ul>
+
       </div>
-    </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer (Section: Contact) -->
-  <footer id="main-footer" class="bg-dark text-center p-1">
-    <h2>Contact</h2>
-    <p>You can contact me at <a id="footer-link" href="https://www.linkedin.com/in/anton-chuchuva-6738a3251/">LinkedIn</a>. I'd love to
-      hear from you!</p>
-  </footer>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Anton Chuchuva</p>
+      </div>
+    </footer>
+  </main>
 
-  <!-- JQuery CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-  <!-- Local JS File -->
-  <script src="./js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
