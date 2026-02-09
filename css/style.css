@@ -262,7 +262,7 @@ strong {
 
 .about-hero-media img {
   width: auto;
-  height: min(82vh, 720px);
+  height: 82vh;
   max-width: 100%;
   object-fit: contain;
   object-position: bottom right;
